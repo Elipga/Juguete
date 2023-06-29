@@ -26,7 +26,7 @@ public class JugueteEducativo extends Juguete {
         return bonificacion;
     }
 
-    @Override
+  
     public double getPrecio() {
         return (getPrecioBase() - getBonificacion());
     }

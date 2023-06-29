@@ -21,7 +21,7 @@ public class JugueteElectronico extends Juguete{
         return recargo;
     }
 
-    @Override
+
     public double getPrecio() {
         return (getPrecioBase() + getRecargo());
     }
